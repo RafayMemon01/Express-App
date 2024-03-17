@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express CRUD</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/2815/2815428.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h4>Express CRUD</h4>
+      <div class="searchBar">
+        <form>
+          <input type="search" placeholder="Search..." />
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <div class="feedBoxHead">
+        <h2>Whats is New Today?</h2>
+        <span id="watch">Time...</span>
+      </div>
+      <section class="feedBox">
+        <div class="newPostCreatingButton">
+          <button>Create New Post</button>
+        </div>
+        <div class="postContainer">
+          
+        </div>
+      </section>
+
+      <section class="newsSection">
+        <h1>Tech News:</h1>
+        <div class="container"></div>
+      </section>
+
+      <h2>Explore Our Library</h2>
+      <section class="Games-Section">
+        <div class="game">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbtfpQjRJ894FJgUtqxc9L19i5vZUxNwcZMRzOsXUaV8CnGrTRUf57EQPU3uxLGS8KzZ9b"
+            alt="Ludo King Game Image"
+          />
+          <div class="game-data-box">
+            <h4>Ludo King</h4>
+            <a href="/static/Ludo-King.xapk">Download</a>
+          </div>
+        </div>
+        <div class="game">
+          <img src="./software-icon-32081.png" alt="Ludo King Game Image" />
+          <div class="game-data-box">
+            <h4>WebP Converter</h4>
+            <a href="/static/webpconverter.exe">Download</a>
+          </div>
+        </div>
+        <div class="game">
+          <img src="./software-icon-32081.png" alt="Ludo King Game Image" />
+          <div class="game-data-box">
+            <h4>HTML CSS BOOK</h4>
+            <a href="/static/Wiley.HTML.and.CSS.Oct.2011.pdf">Download</a>
+          </div>
+        </div>
+        <div class="game">
+          <img
+            src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/11/09/a911097d-d1e1-df54-e6e9-e88d370d4995/5ca45944-4e80-4b0c-93c4-92ef89e2656d_1.png/643x0w.jpg"
+            alt="Ludo King Game Image"
+          />
+          <div class="game-data-box">
+            <h4>Speed Moto Dash</h4>
+            <a href="/static/SpeedMotoDash_Mod.apk">Download</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <a download href="/static/Ludo-King.xapk">Download Ludo King</a> -->
+    <!-- <a download href="/static/SpeedMotoDash_Mod.apk">Download Speed Moto Dash</a> -->
+
+    <footer>
+      <p>
+        &copy
+        <a href="https://www.linkedin.com/in/rafay-memon-930190253/"
+          >Rafay Memon</a
+        >
+      </p>
+      <p></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

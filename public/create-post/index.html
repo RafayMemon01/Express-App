@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Post || Express CRUD APP</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  </head>
+  <body>
+    <header><h4>Express CRUD</h4></header>
+    <main>
+        <div style="display: flex; align-items: center; gap: 1em;">
+            <a style="text-decoration: none; color: white;" href="../index.html"><span style=" cursor: pointer; font-size: x-large;"><i class="bi bi-arrow-left-circle-fill"></i></span>
+            </a>
+            <h2>Create Post</h2>
+        </div>
+
+      <section class="post-creating-section">
+        <form id="postForm">
+          <Label for="title">Title</Label>
+          <input type="text" id="title" minlength="10" maxlength="50" placeholder="Write a Title...">
+          <label for="text">Text</label>
+          <textarea placeholder="write something new..." name="text" id="text" cols="30" rows="10" style="resize: none;"></textarea>
+          <button type="submit">Post 📩</button>
+        </form>
+
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

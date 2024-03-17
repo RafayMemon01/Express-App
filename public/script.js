@@ -17,6 +17,7 @@ const getNews = async () => {
 
   const response = await axios.get("/news");
   const news = response.data.articles;
+  console.log("news: -", news)
 
   news.map((article) => {
     const newsCard = document.createElement("div");
